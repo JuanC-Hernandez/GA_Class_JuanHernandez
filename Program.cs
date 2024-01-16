@@ -9,10 +9,10 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            Student juan;
-            Student jack;
-            Professor will;
-            Car reserved_space1;
+            Student juan = new Student();
+            Student jack = new Student();
+            Professor will = new Professor();
+            Car reserved_space1 = new Car();
         }
     }
 }
